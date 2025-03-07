@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공동구매 플랫폼</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">공동구매</div>
+        <nav>
+            <input type="text" placeholder="검색어를 입력하세요">
+            <button>검색</button>
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>함께 만드는 세상, 공동구매</h1>
+            <p>당신의 아이디어가 현실이 됩니다.</p>
+        </section>
+
+        <section class="projects">
+            <h2>🔥 인기 프로젝트</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="프로젝트1">
+                    <h3>혁신적인 스마트 워치</h3>
+                    <p>현재 250% 펀딩 달성</p>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="프로젝트2">
+                    <h3>친환경 텀블러</h3>
+                    <p>현재 180% 펀딩 달성</p>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="프로젝트3">
+                    <h3>건강한 유기농 간식</h3>
+                    <p>현재 320% 펀딩 달성</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>🆕 신규 프로젝트</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <img src="project4.jpg" alt="프로젝트4">
+                    <h3>미니멀 가방</h3>
+                    <p>현재 90% 펀딩 달성</p>
+                </div>
+                <div class="project-card">
+                    <img src="project5.jpg" alt="프로젝트5">
+                    <h3>스마트 조명</h3>
+                    <p>현재 120% 펀딩 달성</p>
+                </div>
+                <div class="project-card">
+                    <img src="project6.jpg" alt="프로젝트6">
+                    <h3>프리미엄 노트북 스탠드</h3>
+                    <p>현재 70% 펀딩 달성</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 공동구매 플랫폼. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
